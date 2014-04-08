@@ -21,6 +21,7 @@
 		D8BB22F418F4688E00014F07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BB22D618F4688D00014F07 /* UIKit.framework */; };
 		D8BB22FC18F4688E00014F07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8BB22FA18F4688E00014F07 /* InfoPlist.strings */; };
 		D8BB22FE18F4688E00014F07 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB22FD18F4688E00014F07 /* Git_TestTests.m */; };
+		D8BB230918F46C2700014F07 /* NNTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB230818F46C2700014F07 /* NNTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D8BB22F918F4688E00014F07 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		D8BB22FB18F4688E00014F07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8BB22FD18F4688E00014F07 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		D8BB230718F46C2700014F07 /* NNTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTest.h; sourceTree = "<group>"; };
+		D8BB230818F46C2700014F07 /* NNTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D8BB22E418F4688D00014F07 /* Main.storyboard */,
 				D8BB22E718F4688D00014F07 /* NNViewController.h */,
 				D8BB22E818F4688D00014F07 /* NNViewController.m */,
+				D8BB230718F46C2700014F07 /* NNTest.h */,
+				D8BB230818F46C2700014F07 /* NNTest.m */,
 				D8BB22EA18F4688D00014F07 /* Images.xcassets */,
 				D8BB22D918F4688D00014F07 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				D8BB22E918F4688D00014F07 /* NNViewController.m in Sources */,
 				D8BB22E318F4688D00014F07 /* NNAppDelegate.m in Sources */,
 				D8BB22DF18F4688D00014F07 /* main.m in Sources */,
+				D8BB230918F46C2700014F07 /* NNTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
